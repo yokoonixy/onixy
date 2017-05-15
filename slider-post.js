@@ -17,5 +17,6 @@ ul.FeaturedPost h4{position:absolute;bottom:10px;left:10px;right:10px;z-index:2;
 ul.FeaturedPost li:hover h4{bottom:30px}
                 ul.FeaturedPost li:nth-child(1)h4,ul.rcentside li:nth-child(4)h4{font-size:150% }
                 ul.FeaturedPost .label_text{position:absolute;bottom:0;left:20px;z-index:2;color:#fff;font-size:90%;opacity:0;transition:all .3s}ul.rcentside li:hover .label_text{bottom:20px;opacity:1}ul.rcentside li:nth-child(2).autname,ul.rcentside li:nth-child(3).autname{display:none }.buttons{margin:5px 0 0 }
-                  .buttons a{display:inline-block;text-indent:-9999px;width:15px;height:25px;position:relative }.buttons a::before{content:"";width:0;height:0;border-width:8px 7px;border-style:solid;border-color:transparent #535353 transparent transparent;position:absolute;top:50%;margin-top:-8px;margin-left:-10px;left:50% }
+                  .buttons a{display:inline-block;text-indent:-9999px;width:15px;height:25px;position:relative }
+                                            .buttons a::before{content:"";width:0;height:0;border-width:8px 7px;border-style:solid;border-color:transparent #535353 transparent transparent;position:absolute;top:50%;margin-top:-8px;margin-left:-10px;left:50% }
                     .buttons a.nextx::before{border-color:transparent transparent transparent #535353;margin-left:-3px }
